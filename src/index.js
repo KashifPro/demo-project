@@ -12,7 +12,7 @@ function Page(){
     <div className='Page'>
     <Header />
     
-<App />
+   <App />
    {/* <AddItems /> */}
     </div>
    )

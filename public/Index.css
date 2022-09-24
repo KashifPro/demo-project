@@ -8,7 +8,6 @@
     align-items: center;
     background-color: black;
     line-height: 50px;
-   
   }
   .nav-items{
   list-style: none;
@@ -58,6 +57,8 @@
     justify-content: space-between;
     background-color: #363333;
     /* border: 2px solid blue;  */
+    box-shadow: 7px 2px 5px rgb(29, 28, 28);
+    border-radius: 7px;
   }
   contact{
     display: flex;
@@ -197,8 +198,8 @@ font-size: 12px;
 
 
 
-  @media only screen and (max-width: 800px){
-
+  @media only screen and (min-width:605px) and (max-width: 1200px){
+    
     .logo>img{
     width: 40px;
   }
@@ -206,24 +207,31 @@ font-size: 12px;
   contact{
     margin-bottom: 45px;
     position: relative;
+    box-shadow: 7px 2px 5px rgb(0, 0, 0);
+    border-radius: 7px;
+    
   }
   .Contacts{
     flex-direction: row;
-   
+   overflow: hidden;
+   justify-items: center;
     
   }
   main{
     display: block;
   }
   .FlexBox{
-    padding-right: 40px;
+   
+    padding-right: 14px;
     padding-left: 15px;
+    
   }
  
   }
   @media only screen and (max-width: 600px){
     .Contacts{
       flex-direction: column;
+      
     }
     .logo{
       width: 100%;
@@ -232,6 +240,9 @@ font-size: 12px;
       justify-content: center;
       padding-left: 20px;
       margin-left: 20px;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      
     }
     body{
       background-color: #363333;
@@ -239,20 +250,12 @@ font-size: 12px;
   }
   @media only screen and (min-width: 1200px){
   .FlexBox{
-    margin-right: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-items: center;
     margin-bottom: 70px;
+    overflow: hidden;
+    
   }
   } 
-  @media only screen and (max-width: 1250px) and (min-width: 800px){
-    .FlexBox{
-      margin-right: 40;
-      margin-bottom: 40;
-      padding: 0;
-    }
-    contact{
-      justify-content: none;
-    }
-   #Fourth{
-    display: none;
-   }
-  }
+ 
