@@ -7,28 +7,38 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    color:white ;
+    line-height: 50px;
    
   }
   .nav-items{
   list-style: none;
   display: flex;
-  padding: 10px;
   
   }
-  .nav-items>li{
-    padding-right: 19px;
+  .nav-items a{
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    font-weight: 600;
+  color: #fff;
+  }
+  a.active,a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 5px;
   }
 
   .logo>img{
     
-    margin-top: 15px;
+  
     margin-right: 7px;
   }
   .logo{
     display: flex;
     margin-left: 20px;
     color: #51B9D5;
+    align-items: center;
+ 
   }
   
   body{

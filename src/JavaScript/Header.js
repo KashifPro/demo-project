@@ -8,9 +8,9 @@ export default function Header(){
          <h3>ReactFacts</h3>
          </div>
          <ul className='nav-items'>
-             <li>Home</li>
-             <li>About</li>
-             <li>Services</li>
+             <li><a className="active" href='#'>Home</a></li>
+             <li><a href='#'>About</a></li>
+             <li><a href='#'>Services</a></li>
          </ul> 
      </nav>
      </header>)
