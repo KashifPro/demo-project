@@ -1,0 +1,248 @@
+*{
+  box-sizing: border-box;
+  /* border: 6px solid brown; */
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:white ;
+   
+  }
+  .nav-items{
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  
+  }
+  .nav-items>li{
+    padding-right: 19px;
+  }
+
+  .logo>img{
+    
+    margin-top: 15px;
+    margin-right: 7px;
+  }
+  .logo{
+    display: flex;
+    margin-left: 20px;
+    color: #51B9D5;
+  }
+  
+  body{
+    margin: 0;
+    font-family: sans-serif,Verdana, Geneva, Tahoma;
+     background-color: #363333;
+  }
+  
+  .Contacts{
+    display: flex;
+     
+  }
+  .FlexBox{
+    display: flex;
+    padding-left: 2px;
+    padding-right: 2px;
+    justify-content: space-between;
+    background-color: #363333;
+    /* border: 2px solid blue;  */
+  }
+  contact{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-color: white;
+    color: #363333;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    /* border: 2px solid blue; */
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid blue; */
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  .cat{
+    width: 270px;
+  }
+.phone{
+  width: 15px;
+  margin-right: 5px;
+}
+.call{
+display: flex;
+font-size: 12px;
+}
+
+  /* main{
+    color: yellow;
+    font-size: larger;
+    font-weight: 700;
+    padding: 10px;
+  } */
+  .Footer{
+    margin-top: 210px;
+    padding-right: 20px;
+    text-align: end;
+    color: brown;
+    display: none;
+  }
+  .badge{
+    position: absolute;
+    top:6px;
+    left: 6px;
+    padding: 5px 5px;
+    margin: 8px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+  }
+
+  /* Random Meme Generate */
+
+.form{
+  display: grid;
+  row-gap: 2em;
+}
+  .input--text{
+    display: grid;
+    height: 45px;
+    grid-template-columns: 47% 47%;
+    column-gap: 2.5em;
+    text-align: center
+   
+  }
+  .input--text>:first-child{
+    font-size: larger;
+    border: 1px solid rgb(12, 70, 231);
+    border-radius: 5px;
+    text-indent: 10px;
+  }
+  .input--text>:last-child{
+    font-size: larger;
+    border-radius: 5px;
+    border: 1px solid rgb(21, 7, 226);
+    text-indent: 10px;
+  }
+  .input--button{
+    height: 60px;
+    
+  }
+  .sub--button{
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: white;
+    background-color: purple;
+    border: 2px solid rgb(167, 53, 132);
+    border-radius: 5px;
+    
+  }
+  .cardName--img{
+    display: flex;
+  }
+  
+  .toggle--star{
+    width: 40px;
+    height: 50px;
+    padding: 7px;
+  }
+  #through--Item{
+  
+    color: white;
+    font-size: larger;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  .sub--button:hover{
+    background-color: rgb(116, 26, 116);
+  }
+  .sub--button:active{
+    
+    background-color: #80105b;
+    font-size: 32px;
+  }
+  .grid--main{
+    padding: 30px;
+  }
+  .Meme--img{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    position: relative;
+  }
+
+
+
+
+
+  @media only screen and (max-width: 800px){
+
+    .logo>img{
+    width: 40px;
+  }
+  
+  contact{
+    margin-bottom: 45px;
+    position: relative;
+  }
+  .Contacts{
+    flex-direction: row;
+   
+    
+  }
+  main{
+    display: block;
+  }
+  .FlexBox{
+    padding-right: 40px;
+    padding-left: 15px;
+  }
+ 
+  }
+  @media only screen and (max-width: 600px){
+    .Contacts{
+      flex-direction: column;
+    }
+    .logo{
+      width: 100%;
+    }
+    .FlexBox{
+      justify-content: center;
+      padding-left: 20px;
+      margin-left: 20px;
+    }
+    body{
+      background-color: #363333;
+    }
+  }
+  @media only screen and (min-width: 1200px){
+  .FlexBox{
+    margin-right: 70px;
+    margin-bottom: 70px;
+  }
+  } 
+  @media only screen and (max-width: 1250px) and (min-width: 800px){
+    .FlexBox{
+      margin-right: 40;
+      margin-bottom: 40;
+      padding: 0;
+    }
+    contact{
+      justify-content: none;
+    }
+   #Fourth{
+    display: none;
+   }
+  }
