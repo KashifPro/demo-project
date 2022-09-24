@@ -4,7 +4,7 @@ import Header from './JavaScript/Header';
 // import AddItems from './JavaScript/Add-Items';
 // import Counter from './JavaScript/counter';
 // import Meme from './JavaScript/Meme';
-import App from './JavaScript/Contact-Data';
+import App from './JavaScript/App';
 // import Meme from './JavaScript/Meme';
 
 function Page(){
