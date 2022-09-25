@@ -18,8 +18,3 @@ function Page(){
    )
 }
 ReactDOM.render(<Page />, document.getElementById('root'))
-
-
- {/* <Meme /> */}
-   {/* <App />
-   <App /> */}

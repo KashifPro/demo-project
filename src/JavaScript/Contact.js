@@ -31,7 +31,7 @@ export default function Contact(props){
        <img className="cat" src={`../Cats/${props.img}`} alt='cat'></img>
        <div className='cardName--img'>
        <h3>{Card.name}</h3>
-       <Star image={favIcon} toggleFavorite={toggleFav} />
+       <Star image={favIcon} toggleFavorite={toggleFav}/>
        </div>
        <call className="call">
        <img className='phone' src='./Cats/call.png' alt='phone'></img>
